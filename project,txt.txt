@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="description" content="Free Web tutorials">
+	<meta name="keywords" content="HTML, CSS, XML, JavaScript">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<title></title>
+</head>
+
+
+<body>
+	<!-- header section -->
+	<header class="head">
+		<h1 class="hw">World largest Freelancing website</h1>
+		<h3 class="hs">Stand Out From Crowd</h3>
+		
+	</header>
+
+	<!-- main manu section-->
+	
+	<nav class="manu">
+		<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Contact</a></li>
+		<li><a href="#">Services</a></li>
+		<li><a href="#">Gallary</a></li>
+		<li><a href="#">About</a></li>
+	    </ul>
+	</nav>
+
+	<br>
+
+
+	<h1 align="center">
+		Our Services
+	</h1><hr>
+
+	<!-- services section -->
+	<section class="Service">
+		
+		<div class="sub1-col">
+			<img src="1.jpg" style="height: 100px; width: 150px;">
+			<h1>Graphic Design</h1>
+			<p>
+				Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable 
+			</p>
+			
+		</div>
+		
+		<div class="sub2-col">
+			<img src="2.jpg" style="height: 100px;width: 100px;">
+			<h1>Web Design</h1>
+			<p>
+				Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using \
+				'Content here, content here', making it look like readable 
+			</p>
+		</div>
+		<div class="sub3-col">
+			<img src="3.jpg" style="height: 100px;width: 100px;">
+			<h1>Software Development</h1>
+			<p>
+				Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable 
+
+			</p>
+		</div>
+		
+		<div class="sub4-col">
+			<img src="4.png " style="height: 100px;width: 100px;">
+			<h1>Game Development</h1>
+			<p>
+				
+				Lorem Ipsum is simply dummy text of the printing and
+				Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable 
+			</p>
+		</div>
+		
+	</section>
+	<br>
+
+	<!-- Our Team Section -->
+	<h1 align="center ">OUR TEAM</h1><hr>
+	<section class="team">
+		<div class="t1-col">
+			<img src="5.png" style="height: 100px;width: 100px;">
+			<h3 style="color:blue;">Muhammad Hamza / CEO</h3>
+			<p style="color:white ;">
+				Lorem Ipsum is simply dummy text of the printing and
+				Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable 
+			</p>
+			
+		</div>
+		<div class="t2-col">
+			<img src="5.png" style="height: 100px;width: 100px;">
+			<h3 style="color :blue;">Muhmmad Adnan/ web developer
+			</h3>
+				<p style="color: white;">
+				Lorem Ipsum is simply dummy text of the printing and
+				Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable 
+			</p>
+			
+		</div>
+		<div class="t3-col">
+			<img src="5.png" style="height: 100px;width: 100px;">
+			<h3 style="color: blue;">Hina Khan / Softawre developer</h3>
+			<p style="color : white;">
+				Lorem Ipsum is simply dummy text of the printing and
+				Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable 
+			</p>
+		</div>
+		<div class="t4-col">
+			<img src="5.png" style="height: 100px;width: 100px;">
+			<h3 style="color:blue">Aysha Khan/project manger</h3>
+			<p style="color: white;">
+				Lorem Ipsum is simply dummy text of the printing and
+				Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable 
+			</p>
+		</div>
+		
+
+	</section>
+	<br>
+
+<!-- our Scoial contact section -->
+	
+
+
+<h1 align="center ">OUR Scoial Contact </h1><hr>
+<section class="social-contact">
+
+<div class="f">
+	<img src="facebook.png" style="height: 40px; width: 60px;">
+</div>
+  <div class="lin">
+	<img src="linkedin.png" style="height: 40px; width: 60px;">
+</div>
+  <div class="in">
+	<img src="instagram.png" style="height: 40px; width: 60px;">
+</div>
+  <div class="tweter">
+	<img src="twitter.png" style="height: 40px; width: 60px;">
+</div>
+</section>
+<br>
+
+<!-- Our Cntact form section -->
+ 
+
+
+ <h1 align="center">Our Contact Form</h1><hr>
+<section class="fom">
+	<div class="fom-con">
+	<form>
+	<label class="nam">First Name:</label>
+	<input type="text" name="" class="put"><br>
+	<label class="nam">Last Name:</label>
+	<input type="text" name="" class="put"><br>
+	<label class="nam">Email :</label>
+	<input type="email" name="" class="put"><br>
+	<label class="nam">Message</label><br>
+	<textarea cols="40" rows="8"></textarea><br>
+	<input type="submit" name="" value="Submit" class="sub">
+	</form>
+	</div>
+</section>
+
+<!-- footer section-->
+
+<h1 align="center">Footer Section  </h1><hr>
+<footer class="foot">
+
+	<div class="f1-col">
+		<h4 style="color:white;">Recent Post</h4>
+		<p style="color: white;">
+			Lorem Ipsum is simply dummy text of the printing and
+			Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable 
+		</p>
+	</div>
+	
+	<div class="f1-col">
+		<h4 style="color:white;">Recent News</h4>
+		<p style="color: white;">
+
+			Lorem Ipsum is simply dummy text of the printing and
+			Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable 
+		</p>
+	</div>
+	
+		<div class="f1-col">
+			<h4 style="color:white;">Recent Pages</h4>
+		<p style="color: white;">
+			Lorem Ipsum is simply dummy text of the printing and
+			Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable 
+		</p>
+	</div>
+		<div class="f1-col">
+			<h4 style="color:white;">OUR Services</h4>
+		<p style="color: white;">
+
+			Lorem Ipsum is simply dummy text of the printing and
+			Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable 
+		</p>
+	</div>
+
+</footer>
+
+</body>
+</html>
+
+<!- -- Here is the css file -->
+
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.head {
+	height: 200px;
+	width: 100%;
+    border:2px solid black;
+    background-color: skyblue;
+}
+.hw {
+	margin-left:400px;
+	color:green;
+}
+
+.hs{
+	margin-left: 400px;
+}
+
+.manu{
+
+width: 100%;
+height: 100px;
+background-color: yellow;
+}
+.manu ul{
+	padding: 40px;
+	margin: auto;
+}
+.manu  li{
+	display: inline;
+	padding: 20px;
+	margin-left: 60px;
+}
+
+.manu ul li a {
+	list-style-type: none;
+	text-decoration: none;
+	font-size: 30px;
+	font-color:white;
+	padding: 20px;
+}
+
+
+.Service {
+	height: 400px;
+   width: 100%;
+	background-color: yellow;
+   border: 3px solid black;
+}
+
+.sub1-col{
+		float:right;
+		height: 100px;
+		width: 200px;
+	padding: 50px
+ 
+}
+.sub2-col
+{
+	float: right;
+	height: 100px;
+	width: 200px;
+	padding:50px;
+
+}
+
+.sub3-col
+{
+	float: right;
+	height: 100px;
+	width: 200px;
+	padding:50px;
+}
+.sub4-col{
+
+	height: 100px;
+	width: 200px;
+	padding: 50px;
+	margin-left: 80px;
+
+
+}
+.team{
+
+	height: 500px;
+	width: 100%;
+	background-image: url(7.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.t1-col{
+	float: right;
+	height: 100px;
+	width: 200px;
+	padding: 40px;
+
+}
+
+
+
+.t2-col
+{
+	float: right;
+	height: 100px;
+	width: 200px;
+	padding: 40px;
+
+}
+.t3-col
+{
+	float: right;
+	height: 100px;
+	width: 200px;
+	padding: 40px;
+}
+.t4-col
+{
+	height: 100px;
+	width: 200px;
+	padding: 40px;
+	margin-left: 100px;
+
+}
+
+.social-contact{
+	height: 100px;
+	width:100%;
+	background-color: skyblue;
+}
+.f{
+	height: 100px;
+	width: 200px;
+	float: right;
+	padding-right:100px;
+}
+.lin{
+	height: 100px;
+	width: 200px;
+	float: right;
+	padding-right:30px;
+}
+.in
+{
+	height: 100px;
+	width: 200px;
+	float: right;
+	padding-right:100px;
+}
+.tweter{
+	height: 100px;
+	width: 200px;
+	float: right;
+	padding-right:100px;
+
+}
+.fom
+{
+	height: 400px;
+	width: 100%;
+	background-color: skyblue;
+	padding: 30px;
+
+}
+
+.fom-con{
+	height: 300px;
+	width: 300px;
+	border: 2px solid black;
+
+	margin-left: 900px;
+	padding: 50px;
+}
+.put{
+
+	width: 200px;
+	
+
+}
+.sub
+{
+	width: 200px;
+	background-color:black;
+	color: white;
+	height: 20px;
+}
+
+
+.nam{
+	color: green;
+	font-size:20px;
+}
+.foot
+{
+
+	height: 200px;
+	width: 100%;
+	background-color:black;
+}
+.f1-col{
+	height: 200px;
+	width: 200px;
+	float: right;
+	padding-right: 100px;
+
+
+}
+
